@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sritha Zith Dey Babu | Resume</title>
+  <meta name="description" content="Sritha Zith Dey Babu - Release Engineer specializing in Cloud, DevOps, CI/CD, Incident Management, and Automation." />
+  <meta name="keywords" content="Sritha Zith Dey Babu, Release Engineer, DevOps, Cloud Engineer, CI/CD, Azure, GCP, Terraform, Resume, Portfolio" />
+  <meta name="author" content="Sritha Zith Dey Babu" />
+  <style>
+    :root {
+      --bg: #0b1020;
+      --card: #121936;
+      --card-2: #0f1530;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --line: rgba(255,255,255,0.08);
+      --accent: #60a5fa;
+      --accent-2: #22c55e;
+      --shadow: 0 16px 40px rgba(0,0,0,0.28);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #0b1020 0%, #11182f 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 980px;
+      margin: 40px auto;
+      padding: 0 20px 40px;
+    }
+    .card {
+      background: linear-gradient(180deg, var(--card) 0%, var(--card-2) 100%);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: var(--shadow);
+      margin-bottom: 22px;
+      backdrop-filter: blur(6px);
+    }
+    h1, h2, h3 { margin: 0 0 10px; }
+    h1 { font-size: 38px; line-height: 1.15; }
+    h2 {
+      font-size: 21px;
+      padding-bottom: 10px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--line);
+    }
+    h3 { font-size: 18px; }
+    p { margin: 8px 0; }
+    .muted { color: var(--muted); }
+    .hero {
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      right: -80px;
+      top: -80px;
+      background: radial-gradient(circle, rgba(96,165,250,0.22), transparent 65%);
+      pointer-events: none;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+    .subtitle {
+      font-size: 17px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .contact a {
+      color: var(--text);
+      text-decoration: none;
+      display: inline-block;
+      margin-right: 14px;
+      margin-bottom: 10px;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.03);
+    }
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+    .button {
+      display: inline-block;
+      background: var(--accent);
+      color: #081120;
+      padding: 12px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      border: none;
+    }
+    .button.secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--line);
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .tag {
+      padding: 9px 13px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      font-size: 14px;
+    }
+    .job {
+      margin-bottom: 24px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--line);
+    }
+    .job:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 10px 0 0;
+    }
+    li { margin-bottom: 8px; }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+    .highlight-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+    .mini {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px;
+      background: rgba(255,255,255,0.03);
+    }
+    .mini strong {
+      display: block;
+      font-size: 22px;
+      color: var(--accent-2);
+      margin-bottom: 6px;
+    }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 20px;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+    @media (max-width: 760px) {
+      .two-col, .highlight-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 30px; }
+      .card { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="card hero">
+      <div class="top">
+        <div>
+          <h1>Sritha Zith Dey Babu</h1>
+          <p class="subtitle">Release Engineer | Cloud | DevOps | CI/CD | Incident Management</p>
+          <p>Brno, Czechia</p>
+          <div class="actions">
+            <a class="button" href="#contact">Contact Me</a>
+            <a class="button secondary" href="#experience">View Experience</a>
+            <a class="button secondary" href="resume.pdf" target="_blank">Download CV</a>
+          </div>
+        </div>
+        <div>
+          <img src="profile.jpg" alt="Sritha Zith Dey Babu" class="profile-pic" />
+        </div>
+      </div>
+      <div class="contact" style="margin-top:16px;">
+        <a href="mailto:srithababu.dey@gmail.com">srithababu.dey@gmail.com</a>
+        <a href="tel:+420721139296">+420 721 139 296</a>
+        <a href="https://linkedin.com/in/sritha" target="_blank">LinkedIn</a>
+        <a href="https://github.com/sritaq" target="_blank">GitHub</a>
+        <span class="muted">Google Scholar</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>About Me</h2>
+      <p>
+        Results-driven Release Engineer with strong expertise in CI/CD automation, cloud engineering,
+        and high-availability deployments. Skilled in building scalable release pipelines, containerized
+        infrastructures, and secure production environments. Focused on improving deployment speed,
+        uptime, reliability, and engineering delivery.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Highlights</h2>
+      <div class="highlight-grid">
+        <div class="mini"><strong>70%</strong><span class="muted">faster infrastructure provisioning through Terraform, TeamCity, and GitOps</span></div>
+        <div class="mini"><strong>90%</strong><span class="muted">reduction in manual deployments with automated CI/CD pipelines</span></div>
+        <div class="mini"><strong>60%</strong><span class="muted">faster incident detection using monitoring and alerting improvements</span></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span class="tag">Azure</span>
+        <span class="tag">GCP</span>
+        <span class="tag">Terraform</span>
+        <span class="tag">CI/CD</span>
+        <span class="tag">Azure DevOps</span>
+        <span class="tag">TeamCity</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Kubernetes</span>
+        <span class="tag">Helm</span>
+        <span class="tag">Python</span>
+        <span class="tag">Prometheus</span>
+        <span class="tag">Incident Management</span>
+        <span class="tag">SLA</span>
+        <span class="tag">GitOps</span>
+        <span class="tag">BigQuery</span>
+        <span class="tag">Apache Beam</span>
+      </div>
+    </section>
+
+    <section class="card" id="experience">
+      <h2>Experience</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <h3>Release Engineer — FNZ (UK) Ltd</h3>
+            <p class="muted">Brno, Czech Republic</p>
+          </div>
+          <div class="muted">Mar 2025 – Present</div>
+        </div>
+        <ul>
+          <li>Designed scalable Azure infrastructure and delivered 15+ secure architecture solutions annually.</li>
+          <li>Automated infrastructure deployment using Terraform, TeamCity, and GitOps, reducing provisioning time by 70%.</li>
+          <li>Managed CI/CD pipelines in Azure DevOps, reducing manual deployments by 90%.</li>
+          <li>Implemented Prometheus and Azure Monitor to improve incident detection speed by 60%.</li>
+          <li>Handled security incidents within SLA and supported hotfix deployment for critical P1/P2 incidents.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <h3>Digital Innovation Operations — Thermo Fisher Scientific</h3>
+            <p class="muted">Brno, Czech Republic</p>
+          </div>
+          <div class="muted">Sep 2024 – Feb 2025</div>
+        </div>
+        <ul>
+          <li>Improved process efficiency by 20% through workflow analysis and collaboration with the Data Science team.</li>
+          <li>Documented tools, dashboards, and pipelines to reduce onboarding time by 30%.</li>
+          <li>Supported GCP Dataflow pipelines and built Python automation for incident triaging.</li>
+          <li>Improved automation efficiency across internal processes using Microsoft Power Platform.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <h3>Automation Engineer — Inovobyte</h3>
+          </div>
+          <div class="muted">Jan 2022 – Feb 2024</div>
+        </div>
+        <ul>
+          <li>Executed product and integration roadmap activities aligned with business goals and customer needs.</li>
+          <li>Used data-driven prioritisation to manage dependencies and support milestone delivery.</li>
+          <li>Maintained data integrity across Firestore and Bigtable with regular audits and validation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card two-col">
+      <div>
+        <h2>Education</h2>
+        <p><strong>Masters in Software Systems & Services Management</strong><br>Masaryk University, Brno</p>
+        <p><strong>BSc in Computer Science</strong><br>Chandigarh University, India</p>
+      </div>
+      <div>
+        <h2>Certifications</h2>
+        <p>Microsoft Power Platform (PL-900)</p>
+        <p>Microsoft Azure Fundamentals (AZ-900)</p>
+        <p>Docker Essentials, IBM</p>
+        <p>ITIL 4 Awareness Training</p>
+        <p>Scrum Fundamentals Certification</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Projects & Awards</h2>
+      <p><strong>Projects:</strong> Automated Release Deployment Framework, ODI Data Quality &amp; Standardization Initiative</p>
+      <p><strong>Awards:</strong> NASA Space App Challenge (Galactic Problem Solver, Global Problem Solver), Smart India Hackathon Finalist, IEEE Best Research Award</p>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:srithababu.dey@gmail.com">srithababu.dey@gmail.com</a></p>
+      <p>Phone: <a href="tel:+420721139296">+420 721 139 296</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/sritha" target="_blank">linkedin.com/in/sritha</a></p>
+      <p>GitHub: <a href="https://github.com/sritaq" target="_blank">github.com/sritaq</a></p>
+      <p class="muted">Keep these files in your GitHub repo root: <strong>index.html</strong>, <strong>profile.jpg</strong>, <strong>resume.pdf</strong></p>
+    </section>
+  </div>
+</body>
+</html>
